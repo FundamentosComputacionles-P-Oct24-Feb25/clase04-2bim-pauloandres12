@@ -1,0 +1,22 @@
+1.  Inicio
+2.  funcion principal()
+3.      variable, i[0-n]
+4.      variable2, i[0-n]
+5.      variable <-- 10
+6.      variable2 <-- 20
+7.      obtenerSuma(variable, variable2)
+8.      obtenerSuma(variable, 100)
+9.      obtenerSuma("variable", 100) // ojo, error...
+10.  fin funcion principal
+11.  // se define un método o función
+12.  funcion obtenerSuma(a, i; b, i)
+13.     p, i[0-n]
+14.     p <-- a + b // 10+20 // 30
+                    // 10+100 // 110
+15.     Escribir p // 30 // 110
+16.  fin funcion obtenerSuma
+17. Fin
+
+// 30
+// 110
+//

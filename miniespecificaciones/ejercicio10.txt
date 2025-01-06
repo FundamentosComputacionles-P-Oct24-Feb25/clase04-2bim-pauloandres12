@@ -1,0 +1,26 @@
+1.  Inicio
+2.  funcion principal()
+3.      variable, i[0-n]
+4.      variable2, i[0-n]
+6.      variable <-- obtenerValor(2) // 15
+7.      variable2 <-- obtenerValor(0) // 5
+8.      obtenerSuma(variable, variable2) // (15, 5)
+9.  fin funcion principal
+10.
+11.  funcion obtenerSuma(a, i; b, i)
+12.     p, i[0-n]
+13.     p <-- a + b
+14.     Escribir "La suma es :" + p  // La suma es : 20
+15.  fin funcion obtenerSuma
+16.
+22.  funcion obtenerValor(a, i) : i
+21.     m, i[0-n]
+23.     (valores(5),i[0-n])
+24.     valores <-- {5, 10, 15, 20, 25}
+                     0   1   2   3   4
+25.     m <-- valores[a] // m toma el valor del arreglo en la pos 2
+                           // 15
+                           // 5
+26.     return m
+27.  fin funcion obtenerValor
+28. Fin

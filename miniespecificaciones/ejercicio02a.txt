@@ -1,0 +1,19 @@
+1.  Inicio
+2.  funcion principal()
+3.     mensaje, x(20)[{a-z}, {BS}]
+4.     mensaje <-- "Ecuador"
+5.     mensaje2, x(20)[{a-z}, {BS}]
+6.     mensaje2 <-- "Sudamérica"
+7.     obtenerMensaje(mensaje, mensaje2)
+8.     obtenerMensaje("Colombia", mensaje2)
+9.     obtenerMensaje("Colombia", "mensaje2")
+10.  fin funcion principal
+11. // se define un procedimiento o subrutina
+12. funcion obtenerMensaje(p, x(20); q, x(20))
+13.    Escribir p + "país de "+ q
+14. fin funcion obtenerMensaje
+15. Fin
+
+// Ecuador país de Sudamérica
+// Colombia país de Sudamérica
+// Colombia país de mensaje2

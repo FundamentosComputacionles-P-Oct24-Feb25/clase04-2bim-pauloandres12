@@ -1,0 +1,23 @@
+1.  Inicio
+2.  funcion principal()
+3.      variable, i[0-n]
+4.      variable2, i[0-n]
+5.      variable3, i[0-n]
+6.      variable <-- 10
+7.      variable2 <-- 20
+8.      obtenerSuma(obtenerSumaDos(variable, variable2) + 1,
+                          obtenerSumaDos(variable, variable2))
+9.  fin funcion principal
+10. // se define un método o función
+11.  funcion obtenerSuma(a, i; b, i)
+12.     p, i[0-n]
+13.     p <-- a + b
+14.     Escribir "La suma es :" + p
+15.  fin funcion obtenerSuma
+16.
+17.  funcion obtenerSumaDos(a, i; b, i) : i
+18.     p, i[0-n]
+19.     p <-- a + b
+20.     return p
+21.  fin funcion obtenerSuma
+22. Fin
