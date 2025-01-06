@@ -20,3 +20,4 @@
 // 30
 // 110
 //
+// En este codigo exiten 2 procedimiento, ya que la funcion principal es un procedimiento en si, y el procedimiento de obtener suma, y no son funciones ya que ninguno de los procedimientos retornan un valor. 
