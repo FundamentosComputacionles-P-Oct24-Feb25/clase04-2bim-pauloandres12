@@ -29,7 +29,7 @@
 29.     mensaje, x(200)[{a-b}, {BS}, {+, =}] <-- ""
 30.     Mientras(contador<=limite) entonces
 31.       operacion <-- tabla + contador
-32.       mensaje <-- mensaje + tabla + " + " + contador " = " + operacion "\n"
+32.       mensaje <-- mensaje + tabla + " + " + contador " = " + operacion +"\n"
 33.       contador <-- contador + 1
 34.     Fin Mientras
 35.     Escribir mensaje
